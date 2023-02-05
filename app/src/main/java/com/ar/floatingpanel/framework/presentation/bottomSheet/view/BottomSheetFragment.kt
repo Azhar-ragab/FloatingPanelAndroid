@@ -42,7 +42,7 @@ class BottomSheetFragment : BottomSheetDialogFragment() {
         adapter = BottomSheetAdapter()
         val bottomSheetList = arrayListOf<BottomSheet>()
         for(i in 0..15) {
-            val item = BottomSheet("Item $i")
+            val item = BottomSheet("Executions: Total number of executions of the statement.Executions: Total number of executions of the statement.Executions: Total number of executions of the statement. $i")
             bottomSheetList.add(item)
         }
         adapter.submitList(bottomSheetList)
