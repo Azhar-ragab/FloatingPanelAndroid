@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FloatingPanel</string>
+    <string name="bottom_sheet_title">Trace Results</string>
+    <string name="show_floating_panel">Show Floating Panel</string>
 </resources>
